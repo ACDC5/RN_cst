@@ -4,7 +4,7 @@
 npm 版本12.16.1
 
 更新@react-native-community/masked-view版
-本1.7到0.19(否则项目启动会花几十分钟)
+本1.7到0.1.9(否则项目启动会花几十分钟)
 
 因为post请求的问题('请求失败'资料说要在android目录下配置)在tri项目中无法配置，因为他是一个
 沙盒环境(没有android和ios的目录)，所以建立了纯RN项目cst...
