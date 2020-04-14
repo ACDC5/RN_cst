@@ -10,9 +10,9 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import BottomTabNavigator from './navigation/BottomTabNavigator';
+import CheckOut_WT from './src/pagas/CheckOut_WT';
 
 const Stack = createStackNavigator();
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -22,6 +22,7 @@ class App extends React.Component {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="Root" component={BottomTabNavigator} />
+          <Stack.Screen name="CheckOut_WT" component={CheckOut_WT} />
         </Stack.Navigator>
       </NavigationContainer>
     );
